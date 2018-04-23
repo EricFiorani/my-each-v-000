@@ -1,5 +1,4 @@
 def my_each(words) # put argument(s) here
-  if block_given?
     i = 0
 
   while i < words.length
@@ -8,7 +7,4 @@ def my_each(words) # put argument(s) here
   end
 
   words
-  else
-    puts "Hey! No block was given!"
-  end
 end
